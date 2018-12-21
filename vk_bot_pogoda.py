@@ -93,13 +93,13 @@ while True:
         # --------------------------------------------------------------------------------------------------------------
 
         # -------------------------Отправка сообщения для города по умолчанию-------------------------------------------
-        elif day == 'понедельник' and p == 0:
+        elif day == 'Понедельник' and p == 0:
             p = 1
             write_msg(user_id, msg_weather(default_city, date))
-        elif day == 'вторник' and p == 1:
+        elif day == 'Вторник' and p == 1:
             p = 2
             write_msg(user_id, msg_weather(default_city, date))
-        elif day == 'среда' and p == 2:
+        elif day == 'Среда' and p == 2:
             p = 3
             write_msg(user_id, msg_weather(default_city, date))
         elif day == 'Четверг' and p == 3:
@@ -108,10 +108,10 @@ while True:
         elif day == 'Пятница' and p == 4:
             p = 5
             write_msg(user_id, msg_weather(default_city, date))
-        elif day == 'суббота' and p == 5:
+        elif day == 'Суббота' and p == 5:
             p = 6
             write_msg(user_id, msg_weather(default_city, date))
-        elif day == 'воскресенье' and p == 6:
+        elif day == 'Воскресенье' and p == 6:
             p = 0
             write_msg(user_id, msg_weather(default_city, date))
         # --------------------------------------------------------------------------------------------------------------
